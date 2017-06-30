@@ -1,0 +1,37 @@
+body {
+	
+}
+ .list-header {
+ 	font-size: 50px;
+ 	font-weight: bold;
+ 	padding: 10px;	
+ }
+ .list-item {
+    font-style: italic;
+    list-style: none;
+    border-radius: 10px;
+  	margin-bottom: 5px;
+  	padding: 10px;
+
+ }
+ .item1 {
+ 	background-color: yellow;
+ }
+ .item2 {
+ 	background-color: #6FEAD4;
+ }
+ .item3 {
+ 	background-color: #F6A9A9;
+ }
+ .item4 {
+ 	background-color: orange;
+ }
+ .item5 {
+ 	background-color: #BFBABA;
+ }
+ .item6 {
+ 	background-color: #CBF0CB;
+ }
+ .item7 {
+ 	background-color: rgba(255, 252, 16, 0.81);
+ }
