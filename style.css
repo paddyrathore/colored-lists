@@ -9,10 +9,16 @@ body {
  .list-item {
     font-style: italic;
     list-style: none;
-    border-radius: 10px;
-  	margin-bottom: 5px;
-  	padding: 10px;
+    margin-bottom: 5px;
+    width: 50%;
 
+ }
+ .item-text {
+ 	border-radius: 10px;
+ 	width: 76%;
+ 	display: inline-block;
+  	
+  	padding: 10px;
  }
  .item1 {
  	background-color: yellow;
@@ -34,4 +40,8 @@ body {
  }
  .item7 {
  	background-color: rgba(255, 252, 16, 0.81);
+ }
+.delete-btn, .edit-btn{
+	float: right; 
+	margin-right:10px;
  }
