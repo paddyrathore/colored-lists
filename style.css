@@ -45,3 +45,19 @@ body {
 	float: right; 
 	margin-right:10px;
  }
+ [draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.list-item.dragElem {
+  opacity: 0.4;
+}
+.list-item.over {
+  //border: 2px dashed #000;
+  border-top: 2px solid blue;
+}
